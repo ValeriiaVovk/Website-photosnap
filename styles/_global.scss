@@ -1,0 +1,93 @@
+/* Обнулення  */
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+p,
+a,
+ul,
+li,
+button,
+pre {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    color: $black;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px;
+    background: $white;
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+    // max-width: 1460px;
+    // padding-left: 10px;
+    // padding-right: 10px;
+}
+
+.button {
+    color: $white;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 2px;
+    border: none;
+    outline: none;
+    background: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+.button img {
+    padding-left: 18px;
+}
+
+.button:active {
+    text-decoration-line: underline;
+}
+
+.button:hover {
+    text-decoration-line: underline;
+}
+
+.button-black {
+    color: $black;
+}
+
+
+h2 {
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 4.167px;
+    text-transform: uppercase;
+}
+
+h3 {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 25px;
+}

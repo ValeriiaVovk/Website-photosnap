@@ -1,0 +1,244 @@
+@media (max-width: 768px) {
+    .container {
+        max-width: 768px;
+        margin: 0 auto;
+    }
+
+    .header {
+        padding: 28px 39px;
+    }
+
+    /*Home page*/
+
+    /*first section*/
+
+    .main-section {
+
+        &__about {
+            max-width: 495px;
+            width: 100%;
+            padding-left: 54px;
+            padding-right: 54px;
+        }
+    }
+
+    /*second section*/
+
+    .benefits {
+        // display: flex;
+
+        &__image {
+            background-position: left -160px center;
+        }
+
+        &__info {
+            width: 495px;
+            padding: 136px 54px 135px 54px;
+
+            div {
+                width: 387px;
+            }
+
+        }
+    }
+
+    .designed-benefits__image {
+        background-image: url(../images/designed-for-everyone.png);
+    }
+
+    .info-padding {
+        padding: 160px 54px 159px 54px;
+    }
+
+    /* section four*/
+
+    .activities {
+        justify-content: center;
+
+        &__type {
+            padding: 361px 43px 40px 43px;
+            
+            &-button-white-wrap {
+                width: 302px;
+
+                .button img {
+                    padding-left: 160px;
+                }
+            }
+        }
+
+        &__type:nth-child(1n) {
+            width: 380px;
+            background-size: cover;
+        }
+
+        &__type:nth-child(2n) {
+            width: 380px;
+            background-size: cover;
+        }
+    }
+
+    /* section five */
+
+    .advantages {
+        align-items: center;
+        flex-direction: column;
+        padding: 120px 155px;
+        gap: 80px;
+
+        &__variables {
+            max-width: 457px;
+        }
+    }
+
+    /*footer */
+
+    footer {
+        padding: 64px 40px 64px 39px;
+
+
+        .footer {
+            position: relative;
+
+
+            &__nav {
+                padding-left: 0px;
+                position: absolute;
+                top: 48px;
+                left: 0;
+
+                &-pages {
+                    flex-direction: row;
+                    gap: 26px;
+
+                }
+            }
+
+        }
+
+    }
+
+    /*STORIES PAGE*/
+
+    .stories {
+
+        &__main {
+            margin-left: 39px;
+
+        }
+
+    }
+
+    .stories-activities {
+        padding-top: 340px;
+    }
+
+    /*FEATURES PAGE*/
+
+    .features_hero-image {
+        background-image: url(../images/features-adaptive.png);
+    }
+
+    .advantages-features {
+        padding-top: 112px;
+        padding-bottom: 112px;
+        padding-left: 39px;
+        padding-right: 39px;
+        flex-direction: row;
+        flex-wrap: wrap;
+        column-gap: 10px;
+        row-gap: 72px;
+
+        &_info {
+            max-width: 338px;
+        }
+    }
+
+    .ad-features-spec {
+        padding-top: 37.5px;
+    }
+
+    /*third section*/
+
+    .beta {
+
+        &__info {
+            padding: 68px 39px;
+
+        }
+    }
+
+    /*PRICING PAGE*/
+
+    /*second section*/
+
+    .pricing {
+        padding-top: 112px;
+
+        &__period {
+            margin-bottom: 43px;
+        }
+
+        &__variables {
+            gap: 24px;
+            flex-direction: column;
+
+            &-tariff {
+                width: 689px;
+                height: 270px;
+                padding: 40px 48px 40px 40px;
+                text-align: left;
+                display: flex;
+                justify-content: space-between;
+
+                &_details {
+                    align-items: flex-start;
+                    max-width: 270px;
+
+                    button {
+                        top: 150px;
+                    }
+                }
+
+                &_costs {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: flex-end; 
+
+                    p {
+                        padding-right: 5px;
+                    }
+                }
+
+                p {
+                    margin-bottom: 32px;
+                }
+
+            }
+
+            .pro {
+                height: 270px;
+                padding: 40px 48px 40px 40px;
+
+                &__dec {
+                    width: 6px;
+                    height: 270px;
+                }
+            }
+        }
+    }
+
+    /*third section*/
+
+    .compare {
+        padding-top: 112px;
+        padding-bottom: 112px;
+        gap: 64px;
+    
+
+        article {
+            width: 689px;
+        }
+
+    }
+}
